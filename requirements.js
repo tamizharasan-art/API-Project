@@ -1,4 +1,4 @@
-// Requirement for our project..requirements
+// Requirement for our project.
 
 // we are the book managing company
 
@@ -41,6 +41,12 @@
 
 //PUT REQUEST
 //Update book details if author is changed.  
+
+//DELETE request
+
+//1.delete a book - done
+//2.delete a author from a book - to be done
+//3.delete author from book and related book from author
 
 
 
