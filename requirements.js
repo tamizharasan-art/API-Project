@@ -47,7 +47,35 @@
 //1.delete a book - done
 //2.delete a author from a book - to be done
 //3.delete author from book and related book from author
+ 
+//schema - Blueprint of how the data have to be constructed
+//MongoDb is schemaless
+//Mongoose has schema
+//Mongoose -> validation and relationship between datas
+//model - document model of MongoDB
+//schema -> model -> use them
 
+// ANOTHER METHOD TO CONNECT TO THE MONGODB
+// async function connect(){
+//     try {
+//        await mongoose.connect(process.env.MONGO_URL);
+//         console.log("connected successfully");
+//     }
+//     catch(error){
+//         console.log("error");
+//     }
+// }
+
+// connect();
+
+//PARAMETER WHICH ARE USED BY ARADHANA WHILE DB CONNECTION
+
+ // {
+    //     useNewUrlParser: true,
+    //     useUnifiedTopology: true,
+    //     useFindAndModify: false,
+    //     useCreateIndex: true,
+    // }
 
 
 
